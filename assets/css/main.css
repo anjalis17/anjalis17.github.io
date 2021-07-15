@@ -4035,11 +4035,11 @@ input, select, textarea {
 	}
 
 	.container.left .date {
-	  right: -100px;
+	  right: -110px;
 	}
 
 	.container.right .date {
-	  left: -100px;
+	  left: -110px;
 	}
 
 	.container .icon {
