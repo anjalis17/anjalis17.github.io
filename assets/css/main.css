@@ -4068,7 +4068,7 @@ input, select, textarea {
 
 	.container .content {
 	  padding: 30px 90px 30px 30px;
-	  background: #857db9;
+	  background: #4e4585;
 	  position: relative;
 	  border-radius: 50px 50px 50px 50px;
 	}
@@ -4082,7 +4082,7 @@ input, select, textarea {
 	  margin: 0 0 10px 0;
 	  font-size: 18px;
 	  font-weight: normal;
-	  color: #FFFFFF;
+	  color: #000000;
 	}
 
 	.container .content p {
