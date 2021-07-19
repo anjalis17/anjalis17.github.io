@@ -79,12 +79,69 @@
 										<h2>Course Overview</h2>
 									</header>
 									<p>If you are planning to join the Vex community, sign up for our summer camp! Our course will aim to teach students about the Vex IQ pieces, common structures such as a four-bar, SnapCAD, and basic programming.</p>
-								</div>
-							</section>
+									<style>
+										* {
+										  box-sizing: border-box;
+										}
+
+										.header {
+										  text-align: center;
+										  padding: 32px;
+										}
+
+										.row {
+										  display: -ms-flexbox; /* IE10 */
+										  display: flex;
+										  -ms-flex-wrap: wrap; /* IE10 */
+										  flex-wrap: wrap;
+										  padding: 0 4px;
+										}
+
+										/* Create four equal columns that sits next to each other */
+										.column {
+										  -ms-flex: 50%; /* IE10 */
+										  flex: 50%;
+										  max-width: 50%;
+										  padding: 0 4px;
+										}
+
+										.column img {
+										  margin-top: 8px;
+										  vertical-align: middle;
+										  width: 100%;
+										}
+
+										/* Responsive layout - makes a two column-layout instead of four columns */
+										@media screen and (max-width: 800px) {
+										  .column {
+										    -ms-flex: 50%;
+										    flex: 50%;
+										    max-width: 50%;
+										  }
+										}
+
+										/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+										@media screen and (max-width: 600px) {
+										  .column {
+										    -ms-flex: 100%;
+										    flex: 100%;
+										    max-width: 100%;
+										  }
+										}
+										</style>
+<!-- PUT WHATEVER IMAGE U WANT INTO HERE, I PUT 2 AND FEEL FREE TO CHANGE/FIX -->
+										<body>
+											<div class="row">
+												<div class="column">
+													<img src="images/campcropped.jpg" style="width:100%">
+												</div>
+													<div class="column">
+													<img src="images/communitycropped.jpg" style="width:100%">
+												</div>
+											</div>
 
 						<!-- Two -->
-						<section id="two">
-							<div class="inner">
+
 								<header class="major">
 									<h2>Schedule</h2>
 								</header>
