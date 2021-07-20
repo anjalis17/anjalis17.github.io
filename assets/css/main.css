@@ -3380,7 +3380,7 @@ input, select, textarea {
 		-webkit-align-items: center;
 		-ms-align-items: center;
 		align-items: center;
-		background-image: url("../../images/wheel.png");
+		background-image: url("../../images/wheel-min.png");
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -3489,7 +3489,7 @@ input, select, textarea {
 			}
 
 		#banner.style1:after {
-			background-color: #021116;
+			background-color: #6fc3df;
 		}
 
 		#banner.style2:after {
